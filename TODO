@@ -1,4 +1,4 @@
 numbers not divisible by 4 -> false (e.g. 2001)
-numbers divisible by 4 but not by 100 nor 400 -> true  (e.g. 1996)
+numbers divisible by 4 but not by 100 nor 400 -> true (e.g. 1996)
 numbers divisible by 4 and 100 but not 400 -> false (e.g. 1900)
 numbers divisible by 4 and 100 and 400 -> true (e.g. 2000)

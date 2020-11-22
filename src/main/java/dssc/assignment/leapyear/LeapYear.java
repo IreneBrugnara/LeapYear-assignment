@@ -9,7 +9,9 @@ public class LeapYear {
     public Boolean isLeap(int year) {
         if(year%4 != 0)
             return false;
-        else
+        else if(year%4 != 100 && year%4 != 400)
             return true;
+        else
+            return null;
     }
 }
