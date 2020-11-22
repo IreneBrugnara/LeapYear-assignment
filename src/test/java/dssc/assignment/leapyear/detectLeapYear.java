@@ -21,4 +21,10 @@ public class detectLeapYear {
         assertEquals(true, leapYear.isLeap(1996));
     }
 
+    @Test
+    void divisible_by_4_and_100_not_400() {
+        LeapYear leapYear = new LeapYear();
+        assertEquals(false, leapYear.isLeap(1900));
+    }
+
 }
